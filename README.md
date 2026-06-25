@@ -99,7 +99,7 @@ Business Insights
 
 ## 👥 Sales Performance Dashboard
 
-![Sales Performance Dashboard](Dashboard/Sales_Performance_Dashboard.png)
+![Sales Performance Dashboard](Dashboard/Sales_Performance_Dashboard.png.png)
 
 ---
 
