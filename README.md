@@ -1,120 +1,167 @@
-# End-to-End Sales Analytics Platform
+# 📊 End-to-End Sales Analytics Platform
 
-## Project Overview
-
-This project demonstrates an end-to-end sales analytics solution built using PostgreSQL, SQL, Python, and Power BI. The objective was to transform raw sales data into actionable business insights through data engineering, SQL analytics, KPI reporting, and interactive dashboards.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
 
 ---
 
-## Technology Stack
+## 📌 Project Overview
+
+This project demonstrates an end-to-end Sales Analytics solution built using **PostgreSQL, SQL, Python, and Power BI**. The solution transforms raw sales data into meaningful business insights through data engineering, SQL analytics, KPI reporting, and interactive dashboards.
+
+---
+
+## 🎯 Business Objective
+
+The objective of this project is to analyze sales performance across products, countries, and sales representatives to support data-driven business decisions. The dashboard enables stakeholders to monitor KPIs, identify business trends, evaluate profitability, and measure sales target achievement.
+
+---
+
+## 🛠️ Technology Stack
 
 * PostgreSQL
 * SQL
-* Python
-* Pandas
+* Python (Pandas)
 * Power BI
 * DAX
 
 ---
 
-## Project Workflow
+## 📂 Dataset
 
+The project uses a relational database consisting of the following tables:
+
+* 📦 Sales
+* 🛍️ Product
+* 🌍 Region
+* 👨‍💼 Salesperson
+* 🎯 Targets
+
+---
+
+## ⚙️ Project Workflow
+
+```text
 Raw CSV Data
-
-↓
-
-Data Cleaning using Python
-
-↓
-
-PostgreSQL Database Design
-
-↓
-
-SQL KPI Analysis
-
-↓
-
-Business Insights
-
-↓
-
+      │
+      ▼
+Data Cleaning (Python)
+      │
+      ▼
+PostgreSQL Database
+      │
+      ▼
+SQL Analysis
+      │
+      ▼
+Business KPI Analysis
+      │
+      ▼
 Power BI Dashboard
+      │
+      ▼
+Business Insights
+```
 
 ---
 
-## Database Tables
+## 📈 Executive KPIs
 
-* Sales
-* Product
-* Region
-* Salesperson
-* Targets
+* 💰 Total Revenue
+* 💵 Total Cost
+* 📊 Total Profit
+* 📉 Profit Margin
 
 ---
 
-## Business KPIs
+## 📊 Business Analysis
 
-* Total Revenue
-* Total Cost
-* Total Profit
-* Profit Margin
-* Revenue by Category
+* Revenue by Product Category
 * Revenue by Country
 * Revenue by Salesperson
 * Profit by Salesperson
-* Target Achievement
-
----
-
-## Dashboard Pages
-
-### Executive Dashboard
-
-* Revenue KPI
-* Cost KPI
-* Profit KPI
-* Profit Margin
 * Monthly Revenue Trend
-* Revenue by Category
-* Revenue by Country
-* Profitability by Country
-
-### Sales Performance Dashboard
-
-* Revenue by Salesperson
-* Profit by Salesperson
-* Target Achievement
-* Top Revenue Performer
-* Top Profit Performer
+* Top 10 Products
+* Bottom 10 Products
+* Target Achievement Analysis
 
 ---
 
-## Key Business Insights
+# 📸 Dashboard Preview
 
-* Generated revenue of 232.65M with an overall profit of 3.00M.
-* Overall profit margin remained low at 1.29%.
-* The Bikes category contributed the highest revenue.
-* The United States was the strongest revenue-generating market.
-* Germany and Australia showed lower profitability.
-* Salesperson performance varied significantly across regions.
+## 📊 Executive Dashboard
+
+![Executive Dashboard](Dashboard/Executive_Dashboard.png)
 
 ---
 
-## Repository Structure
+## 👥 Sales Performance Dashboard
 
-SQL/
-
-Python/
-
-Dashboard/
-
-Report/
-
-Images/
+![Sales Performance Dashboard](Dashboard/Sales_Performance_Dashboard.png)
 
 ---
 
-## Author
+## 🔍 Key Business Insights
 
-Shivam Mishra
+* Generated **232.65M** in total revenue.
+* Achieved an overall profit of **3.00M**.
+* Overall profit margin reached **1.29%**.
+* The **Bikes** category generated the highest revenue.
+* The **United States** was the top revenue-generating market.
+* Germany and Australia recorded comparatively lower profitability.
+* Sales performance varied across regions, highlighting opportunities to improve target achievement.
+
+---
+
+## 📁 Repository Structure
+
+```text
+Sales-Analytics-Platform
+│
+├── Dashboard
+│   ├── Executive_Dashboard.png
+│   ├── Sales_Performance_Dashboard.png
+│   └── Sales.pbix
+│
+├── Database
+│   └── Sales_Analytics_Database.sql
+│
+├── Python
+│   └── Sales_Analytics_Data_Preparation.ipynb
+│
+├── Report
+│   └── Sales_Analytics_Report.pdf
+│
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository.
+2. Restore the PostgreSQL database using the provided SQL dump.
+3. Open the Power BI dashboard (.pbix) file.
+4. Refresh the data source if required.
+5. Explore the dashboards and business insights.
+
+---
+
+## 🔮 Future Improvements
+
+* Sales Forecasting
+* Customer Segmentation
+* Automated ETL Pipeline
+* Real-Time Dashboard
+* Interactive Drill-through Analysis
+
+---
+
+## 👨‍💻 Author
+
+**Shivam Mishra**
+
+Data Analyst | SQL | PostgreSQL | Python | Power BI
